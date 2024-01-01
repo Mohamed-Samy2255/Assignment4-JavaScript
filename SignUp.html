@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- fontawsom css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- signUp css -->
+    <link rel="stylesheet" href="css/SignUp.css">
+
+</head>
+<body>
+    
+
+<div class="container text-center">
+        <div class="groub shadow">
+
+            <h1 class="main-h1">Smart Login System</h1>
+
+            <input  type= "text" name="" class="form-control name my-3" id="signinNameInput" placeholder="Enter Your Name">
+            <p id="name" class="bg-danger d-none"> You must write a letter Kabitel at least... </p>
+            
+            <input oninput="" type= "email" name="" class="form-control email my-3" id="signinEmailInput" placeholder="Enter Your Email">
+            <p id="email" class="bg-danger d-none"> Please write the e -mail correctly </p>
+
+            <input oninput="" type="password" name="" class="form-control password my-3" id="signinPasswordInput" placeholder="Enter Your Password">
+            <p id="password" class="bg-danger d-none"> You must write it from 5 to 15 letters only </p>
+
+            <p id="incorrect" class="d-none">
+                <span class="text-danger m-3">All inputs is required okkk</span>
+            </p>
+
+            <p id="success" class="d-none">
+                <span class="text-success m-3 text-success">Success</span>
+            </p>
+
+            <p id="danger" class="text-danger d-none">email already exists</p>
+
+            <button id="button" class="">Login</button>
+
+            <p class="text-white" id="a">Don’t have an account? 
+                <a class="text-white " href="index.html">Sign in</a>
+            </p>
+        </div>
+    </div>
+
+
+<!-- bootstrap js -->
+<script src="js/SignUp.js"></script>
+<script src="js/home.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

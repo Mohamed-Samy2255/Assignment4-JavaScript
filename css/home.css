@@ -1,0 +1,30 @@
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav{
+    background-color: #24353F !important;
+}
+
+.text{
+    color: rgba(255,255,255,.5) !important;
+    border: 2px solid #FFC107;
+    border-radius: 5px !important;
+}
+
+.text:hover{
+    background-color: #FFC107;
+    color: white !important;
+}
+
+
+h1{
+    color: #17A2B8;
+}
+
+.groub{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
